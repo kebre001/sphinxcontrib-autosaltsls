@@ -6,7 +6,8 @@ import pathlib
 
 from jinja2 import Environment, FileSystemLoader
 from sphinx.errors import ExtensionError
-from sphinx.util import logging, status_iterator
+from sphinx.util.display import status_iterator
+from sphinx.util import logging
 
 # noinspection PyUnresolvedReferences
 from sphinx.util.console import darkgreen, bold
